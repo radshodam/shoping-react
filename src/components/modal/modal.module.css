@@ -1,0 +1,58 @@
+/* modal */
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0000006c;
+  height: 100vh;
+}
+.modalItem {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  padding: 25px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  box-shadow: 3px -2px 20px 6px;
+
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.modalItem img {
+  width: 300px;
+}
+
+.title{
+  padding: 6px;
+  background-color: #a7a7a7;
+  margin-bottom: 10px;
+  color: aliceblue;}
+.price{
+  padding: 6px;
+  background-color: #7fb343;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+.button {
+  background: #fb310c;
+  padding: 4px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all;
+  width: 120px;
+}
+.button:hover {
+  background: #801300;
+  transition: 0.4s;
+
+}

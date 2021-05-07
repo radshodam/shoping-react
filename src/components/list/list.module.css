@@ -1,0 +1,71 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgLoader {
+  width: 25%;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.itemcards {
+  width: 300px;
+  padding: 0px;
+  text-align: center;
+  margin: 0.7em;
+  box-shadow: 1px 2px 3px;
+  transition: all ease-in;
+}
+.itemcards:hover {
+  transition: 0.4s;
+  box-shadow: 1px 2px 3px 4px#d6afaf;
+  transform: scale(1.1);
+}
+.itemcards img {
+  width: 100px;
+  height: 150px;
+}
+.cardsTitle {
+  background-color: #fad9d9;
+  padding: 8px 0;
+  margin-bottom: 12px;
+  width: 100%;
+  font-weight: 500;
+}
+.bottomCards {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4444442e;
+}
+.cardsPrice {
+  padding: 8px 0;
+  width: 100%;
+  margin: 5px;
+  background-color: #ec535389;
+}
+.cardsBtn {
+  width: 100%;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background: #c5ff4eb3;
+  font-weight: 600;
+  transition: all ease-in;
+}
+.cardsBtn:hover{
+  background-color: rgb(89, 186, 124);
+  transition: 0.4s;
+}
+
+
+
+.text_head {
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 1px 1px #c7bfbf;
+  color: #64c5a4;
+}

@@ -1,0 +1,34 @@
+.nav {
+  background-color: #f9726a;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.navlist {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navlist li {
+  margin: 1.8em;
+}
+
+.navlist a {
+  text-decoration: none;
+  transition: all ease-in;
+  color: #f4f4f4;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px #000000a3;
+}
+.navlist a:hover {
+  transition: all ease-in;
+  color: #2597c1;
+  font-weight: 600;
+  transition: 0.3s;
+}
